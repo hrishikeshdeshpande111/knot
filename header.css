@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    background-color: rgb(14, 11, 22);
+    margin: 0%;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+
+.knotlogo{
+    margin-left: 170px;
+    width: 90px;
+    height: 90px;
+}
+
+.knotlogo:hover{
+    cursor: pointer;
+}
+
+.right-sec{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+button{
+    background-color: rgb(14, 11, 22);
+    border: 1px;
+    color: rgb(231, 223, 221);
+    transition: .5s;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+button:hover{
+    color: rgb(255, 109, 18);
+    cursor: pointer;
+    
+}
+
+
+
+
+.but5{
+    background-color: rgb(255, 109, 18);
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 90px;
+    transition: 0.5s;
+    color:white;
+    font-weight: 500;
+}
+
+.but5:hover{
+    background-color:rgb(231, 223, 221) ;
+    color:rgb(14, 11, 22);
+}
+
